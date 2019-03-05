@@ -1,0 +1,41 @@
+#transform-screen {
+	z-index: 1000;
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#transform-logo {
+	color: white;
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	font-size: 40px;
+	line-height: 40px;
+	margin-top: -60px;
+	top: 50%;
+}
+
+#transform-text {
+	color: white;
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 25px;
+	top: 50%;
+}
+
+
+#transform-bar {
+	height: 2px;
+	width: 0%;
+	background-color: #ff0000;
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+}
